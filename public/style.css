@@ -126,6 +126,70 @@ h1 {
     background: #ff3838;
 }
 
+.edit-btn {
+    background: #2ed573;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.edit-btn:hover {
+    background: #26de81;
+}
+
+.save-btn {
+    background: #1e90ff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.save-btn:hover {
+    background: #0a7cff;
+}
+
+.cancel-btn {
+    background: #a4a4a4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.cancel-btn:hover {
+    background: #888888;
+}
+
+.edit-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 2px solid #667eea;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.edit-input:focus {
+    outline: none;
+    border-color: #764ba2;
+}
+
+.todo-item.editing {
+    background: #fff3cd;
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+}
+
 .stats {
     display: flex;
     justify-content: space-between;
